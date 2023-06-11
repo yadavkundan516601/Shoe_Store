@@ -14,9 +14,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className={`${styles.main} ${inter.className}`}>
+      <main className="bg-black text-white">
         <div className={styles.description}>
-          <p>
+          <p className='text-2xl'>
             Get started by editing&nbsp;
             <code className={styles.code}>pages/index.js</code>
           </p>
